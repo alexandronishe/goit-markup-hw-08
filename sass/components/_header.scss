@@ -1,8 +1,27 @@
 .section-header {
+  position: relative;
   border-bottom: 1px solid #ececec;
+  padding: 10px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+  }
 }
 
 .section-header__container {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+  }
+
+  // @media screen and (min-width: 768px) {
+  //   display: flex;
+  //   align-items: center;
+  // }
 }
