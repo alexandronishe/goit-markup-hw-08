@@ -1,0 +1,28 @@
+/* 
+основной цвет текста color: #212121;
+вторичный цвет текста color: #757575;
+белый цвет текста color: #FFFFFF;
+альтернативный цвет текста color: #2196F3;
+
+цвет фона футер #2F303A;
+цвет фона вторичный #F5F4FA;
+
+*/
+
+:root {
+  --primaty-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white--text-color: #ffffff;
+  --white-bg-color: #fff;
+  --accent-text-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
+  --hero-bg-color: #c4c4c4;
+  --decoration-color: #afb1b8;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primaty-text-color);
+}
