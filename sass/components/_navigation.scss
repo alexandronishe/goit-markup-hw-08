@@ -5,7 +5,7 @@
 .menu-button {
   @media screen and (max-width: 767px) {
     position: relative;
-    z-index: 999;
+    z-index: 6;
     display: inline-flex;
     padding: 0;
     margin: 0;
@@ -50,6 +50,8 @@
     width: 100%;
     padding: 48px 40px;
     background-color: #fff;
+    overflow: auto;
+
     &.is-open {
       display: flex;
       flex-direction: column;
