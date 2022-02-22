@@ -23,6 +23,10 @@
   }
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 .modal__button {
   position: absolute;
   right: 8px;
